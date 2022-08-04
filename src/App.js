@@ -112,7 +112,43 @@ function App() {
             </div>
           </div>
         </div>
-          <button className="text-white bg-orange-500 font-bold text-lg py-1 rounded-full px-8 md:hidden">Find the right treatment</button>
+        <button className="text-white bg-orange-500 font-bold text-lg py-1 rounded-full px-8 md:hidden">Find the right treatment</button>
+      </section>
+
+      <section className="text-blue-900 md:my-12 my-8">
+        <h1 className="font-bold text-3xl text-center" >How would you describe yours?</h1>
+        <div className="flex flex-col md:flex-row px-8 md:px-32 mt-8 gap-4 ">
+          <div className="flex  gap-4 bg-gray-100 p-4 w-full">
+            <img src="/asset/images/receding.svg" alt="receding" />
+            <div className="my-auto">
+              <h1 className="font-bold">Receding hairlines</h1>
+              <p>Receding hairlines
+                Hair starting to thin and move back around the front and sides? Time to take action. </p>
+            </div>
+          </div>
+          <div className="flex  gap-4 bg-gray-100 p-4 w-full">
+            <img src="/asset/images/thinning.svg" alt="receding" />
+            <div className="my-auto">
+              <h1 className="font-bold">Thinning at the crown</h1>
+              <p>Bald spots appearing at the top of your head? Treat this sign of hereditary hair loss.</p>
+            </div>
+          </div>
+        </div><div className="flex flex-col md:flex-row px-8 md:px-32 mt-8 gap-4 ">
+          <div className="flex  gap-4 bg-gray-100 p-4 w-full">
+            <img src="/asset/images/thinning.svg" alt="receding" />
+            <div className="my-auto">
+              <h1 className="font-bold">Thinning all over</h1>
+              <p>Hair becoming less thick all over, exposing more of your scalp? Bring some volume back.</p>
+            </div>
+          </div>
+          <div className="flex  gap-4 bg-gray-100 p-4 w-full">
+            <img src="/asset/images/advanced.svg" alt="receding" />
+            <div className="my-auto">
+              <h1 className="font-bold">Advanced hair loss</h1>
+              <p>Lost all or most of your hair in some parts of your head? Treatments can still help.</p>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );
