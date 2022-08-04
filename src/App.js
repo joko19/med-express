@@ -158,24 +158,28 @@ function App() {
         <h1 className="font-bold text-3xl text-center my-8" >Your journey to better hair?</h1>
         <div className="flex flex-col md:flex-row px-8 md:px-32 gap-8">
           <div className="text-center">
-            <img src="/asset/images/advanced.svg" alt="receding" className="mx-auto bg-gray-100 rounded-full h-32 w-32 p-4" />
+            <img src="/asset/images/receding.svg" alt="receding" className="mx-auto bg-gray-100 rounded-full h-32 w-32 p-4" />
             <h1 className="font-bold my-2">1–2 months</h1>
             <p>Visible results will come over time. At the beginning you may temporarily shed a bit more hair, which is natural.</p>
           </div>
           <div className="text-center">
-            <img src="/asset/images/advanced.svg" alt="receding" className="mx-auto bg-gray-100 rounded-full h-32 w-32 p-4" />
-            <h1 className="font-bold my-2">1–2 months</h1>
-            <p>Visible results will come over time. At the beginning you may temporarily shed a bit more hair, which is natural.</p>
+            <img src="/asset/images/thinning.svg" alt="receding" className="mx-auto bg-gray-100 rounded-full h-32 w-32 p-4" />
+            <h1 className="font-bold my-2">3-4 months</h1>
+            <p>At this point, your hair loss should slow down or stop. You may start seeing some signs of regrowth as well.</p>
           </div>
           <div className="text-center">
-            <img src="/asset/images/advanced.svg" alt="receding" className="mx-auto bg-gray-100 rounded-full h-32 w-32 p-4" />
-            <h1 className="font-bold my-2">1–2 months</h1>
-            <p>Visible results will come over time. At the beginning you may temporarily shed a bit more hair, which is natural.</p>
+            <img src="/asset/images/receding.svg" alt="receding" className="mx-auto bg-gray-100 rounded-full h-32 w-32 p-4" />
+            <h1 className="font-bold my-2">6 months</h1>
+            <p> With consistent treatment new hair will continue to appear and become thicker, noticeably improving scalp coverage.</p>
           </div>
         </div>
         <div className="text-center">
           <button className="text-white bg-orange-500 font-bold text-lg py-1 my-8 mx-auto rounded-full px-24">Start now</button>
         </div>
+      </section>
+
+      <section className="">
+
       </section>
     </div>
   );
