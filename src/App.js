@@ -82,6 +82,38 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section className="flex flex-col gap-8 md:flex-row bg-gray-200 md:p-32 p-8">
+        <div className="w-full text-center md:text-left">
+          <h1 className="text-blue-900 text-2xl md:text-5xl font-bold">What causes hair loss?</h1>
+          <p className="text-blue-900">Hair loss is a very common condition, estimated to affect two-thirds of all men - here are the reasons why.</p>
+          <button className="text-white bg-orange-500 font-bold text-lg py-1 my-4 rounded-full px-8 hidden md:block">Find the right treatment</button>
+        </div>
+        <div className="w-full flex-col gap-8 text-blue-900">
+          <div className="flex gap-4 mb-8">
+            <img src="/asset/images/genes.svg" alt="genes" />
+            <div>
+              <div className="font-bold">Genes</div>
+              <p>Hereditary hair loss, or male pattern baldness, is the most common cause. You have a higher chance of hair loss if you have a family history of it.</p>
+            </div>
+          </div>
+          <div className="flex gap-4 my-8">
+            <img src="/asset/images/hormones.svg" alt="genes" />
+            <div>
+              <div className="font-bold">Hormones</div>
+              <p>Hereditary hair loss, or male pattern baldness, is the most common cause. You have a higher chance of hair loss if you have a family history of it.</p>
+            </div>
+          </div>
+          <div className="flex gap-4 mt-8">
+            <img src="/asset/images/diet.svg" alt="genes" />
+            <div>
+              <div className="font-bold">Diet</div>
+              <p>Hereditary hair loss, or male pattern baldness, is the most common cause. You have a higher chance of hair loss if you have a family history of it.</p>
+            </div>
+          </div>
+        </div>
+          <button className="text-white bg-orange-500 font-bold text-lg py-1 rounded-full px-8 md:hidden">Find the right treatment</button>
+      </section>
     </div>
   );
 }
