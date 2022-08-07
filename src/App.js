@@ -278,6 +278,93 @@ function App() {
           </div>
         </div>
       </section>
+
+      <footer>
+        <div className="flex flex-col md:flex-row gap-4 bg-blue-500 p-8">
+          <div className="w-1/3">
+            <img src="/asset/icons/logo.svg" alt="logo" />
+          </div>
+
+          <div className="w-full">
+            <div className="flex flex-col md:flex-row justify-around w-full">
+              <div className="relative overflow-hidden text-white  p-2 border-t-2 md:border-0 w-full">
+                <input type="checkbox" className="peer absolute top-0 inset-x-0 w-full h-12 md:h-full opacity-0 z-10 cursor-pointer" />
+                <div className="w-full flex items-center font-bold md:mb-4">
+                  <h1>
+                    Useful Links
+                  </h1>
+                </div>
+                <div className="absolute top-3 right-3 transition-transform duration-500 rotate-0 peer-checked:-rotate-180 md:hidden">
+                  <img src="/asset/icons/plus.svg" alt="arrow down" className="my-auto" />
+                </div>
+                <div className="overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40 md:max-h-full">
+                  <ul>
+                    <li>Delivery info</li>
+                    <li>FAQs</li>
+                    <li>Complaints</li>
+                    <li>About Us</li>
+                    <li>Returns</li>
+                    <li>Referral Scheme</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="relative overflow-hidden text-white  p-2 border-t-2 md:border-0 w-full">
+                <input type="checkbox" className="peer absolute top-0 inset-x-0 w-full h-12 md:h-full opacity-0 z-10 cursor-pointer" />
+                <div className="w-full flex items-center font-bold md:mb-4">
+                  <h1>
+                    Popular Treatments
+                  </h1>
+                </div>
+                <div className="absolute top-3 right-3 transition-transform duration-500 rotate-0 peer-checked:-rotate-180 md:hidden">
+                  <img src="/asset/icons/plus.svg" alt="arrow down" className="my-auto" />
+                </div>
+                <div className="overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40 md:max-h-full">
+                  <ul>
+                    <li>Erectile Dysfunction</li>
+                    <li>Weight Loss</li>
+                    <li>Migraines</li>
+                    <li>Period Delay</li>
+                    <li>Asthma</li>
+                    <li>Sexual Health</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="relative overflow-hidden text-white  p-2 border-t-2 border-b-2 md:border-0 w-full">
+                <input type="checkbox" className="peer absolute top-0 inset-x-0 w-full h-12 md:h-full opacity-0 z-10 cursor-pointer" />
+                <div className="w-full flex items-center font-bold md:mb-4">
+                  <h1>
+                    Contact Us
+                  </h1>
+                </div>
+                <div className="absolute top-3 right-3 transition-transform duration-500 rotate-0 peer-checked:-rotate-180 md:hidden">
+                  <img src="/asset/icons/plus.svg" alt="arrow down" className="my-auto" />
+                </div>
+                <div className="overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40 md:max-h-full">
+                  <ul>
+                    <li>Phone: 0208 123 0508</li>
+                    <li>FAQs</li>
+                    <li>Contact Customer Care</li>
+                    <li>Help Centre</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-white mt-4">
+              <div className="flex flex-col md:flex-row">
+                <p className="md:font-bold md:pr-4 md:border-r-2">Terms & Conditions</p>
+                <p className="md:font-bold md:px-4 md:border-r-2">Privacy Policy</p>
+                <p className="md:font-bold md:px-4">Regulations</p>
+                <p className="md:pl-4 mt-4 md:mt-0">© MedExpress Enterprises Ltd 2022 </p>
+              </div>
+              <div className="mt-4 md:mt-1">
+                87a Worship Street, London, United Kingdom, EC2A 2BE | DUNS Number: 21-978-4663
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </footer>
     </div >
   );
 }
