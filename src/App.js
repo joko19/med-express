@@ -178,8 +178,39 @@ function App() {
         </div>
       </section>
 
-      <section className="">
-
+      <section>
+        <div className="flex flex-col md:flex-row p-8 md:p-16 gap-8">
+          <div className="my-auto w-full">
+            <h1 className="text-blue-900 text-2xl md:text-4xl font-bold">Get yur treatment quickly and discreetly</h1>
+            <button className="text-white bg-orange-500 font-bold text-lg py-1 my-8 mx-auto rounded-full px-24 hidden md:inline">Treat hair loss now</button>
+          </div>
+          <div className="flex flex-col gap-8 w-full">
+            <div className="flex flex-col md:flex-row text-center md:text-left gap-4">
+              <img src="/asset/icons/vertical-phone.svg" alt="vertical phone" className="w-24 md:w-auto mx-auto md:mx-0" />
+              <div className="my-auto">
+                <p className="font-bold">Take a 2 minute consultation</p>
+                <p>Just answer a few questions for our medical team to review.</p>
+              </div>
+            </div>
+            <div className="flex flex-col md:flex-row text-center md:text-left gap-4">
+              <img src="/asset/icons/card.svg" alt="card" className="w-24 md:w-auto mx-auto md:mx-0" />
+              <div className="my-auto">
+                <p className="font-bold">Get your free prescription</p>
+                <p>We usually prescribe within the same day, without the need to visit a doctor.</p>
+              </div>
+            </div>
+            <div className="flex flex-col md:flex-row text-center md:text-left gap-4">
+              <img src="/asset/icons/shipping.svg" alt="shipping" className="w-24 md:w-auto mx-auto md:mx-0" />
+              <div className="my-auto">
+                <p className="font-bold">Delivered fast and discreetly</p>
+                <p>Your treatment can be with you in a day, in discreet packaging.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="text-center">
+          <button className="text-white bg-orange-500 font-bold text-lg py-1 my-8 mx-auto rounded-full px-24 md:hidden">Treat hair loss now</button>
+        </div>
       </section>
     </div>
   );

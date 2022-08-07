@@ -1,0 +1,12 @@
+<svg width="74" height="71" viewBox="0 0 74 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="39" cy="35" r="35" fill="#F2F4FC"/>
+<path d="M46.2783 32.6852C47.5349 31.1323 49.4563 30.1394 51.6096 30.1394C55.3952 30.1394 58.4641 33.2083 58.4641 36.9939C58.4641 40.7795 55.3952 43.8484 51.6096 43.8484C49.4563 43.8484 47.5349 42.8555 46.2783 41.3026" stroke="#FBAC2B" stroke-width="1.5"/>
+<path d="M51.6094 33.9478V40.0406" stroke="#FBAC2B" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M54.6562 36.9941L48.5634 36.9941" stroke="#FBAC2B" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="28" y="21" width="18.2786" height="31.9876" rx="3" stroke="#003F82" stroke-width="1.5"/>
+<path d="M31.8076 30.1394H42.4702" stroke="#003F82" stroke-width="1.5"/>
+<path d="M31.8076 33.9473H42.4702" stroke="#003F82" stroke-width="1.5"/>
+<path d="M31.8076 37.7554H37.9005" stroke="#003F82" stroke-width="1.5"/>
+<circle cx="37.1394" cy="48.4178" r="0.77322" fill="#003F82" stroke="#003F82" stroke-width="1.5"/>
+<path d="M11.7334 64H7.5V47.6816L2.44629 49.249V45.8066L11.2793 42.6426H11.7334V64Z" fill="#003F82"/>
+</svg>
