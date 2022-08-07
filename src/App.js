@@ -1,8 +1,34 @@
 
 function App() {
+  const faqs = [
+    {
+      question: 'Which hair loss treatments do you offer?',
+      answered: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    },
+    {
+      question: 'Do I need a prescription to use hair loss medication?',
+      answered: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    },
+    {
+      question: 'When is the right time to start treating hair loss?',
+      answered: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    },
+    {
+      question: 'How effective is hair loss medication?',
+      answered: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    },
+    {
+      question: 'Is this service discreet?',
+      answered: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    },
+    {
+      question: 'How can I save money on hair loss treatments?',
+      answered: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+    },
+  ];
   return (
     <div>
-      <section className="bg-blue-900">
+      <section className="bg-blue-900 overflow-hidden">
         <div className="flex justify-between w-full md:hidden bg-blue-900 ">
           <img src="/asset/icons/logo.svg" alt="icon medExpress" className="bg-blue-900 p-4" />
           <img src="/asset/icons/phone-white.svg" alt="icon medExpress" className="bg-blue-900 p-8" />
@@ -10,8 +36,8 @@ function App() {
         <div className="flex md:flex-row flex-col-reverse">
           <div className="bg-blue-900 relative">
             <img src="/asset/icons/logo.svg" alt="icon medExpress" className="bg-blue-900 p-4 md:block hidden" />
-            <div className="text-white absolute -mt-48 md:bottom-0 w-screen z-40 ">
-              <div className="md:w-1/2 m-12 md:m-0 bg-blue-900 md:text-left text-center ">
+            <div className="text-white absolute -mt-48 md:bottom-0 w-screen overflow-hidden z-40 ">
+              <div className="md:w-1/2 m-12 md:m-0 bg-blue-900 md:text-left text-center  overflow-hidden">
                 <div className="p-8">
                   <div className="md:text-7xl text-2xl font-bold  w-full">Take back control of your hairline</div>
                   <p className="text-lg my-4">Stop, reverse and prevent hair loss, with the right treatment delivered to your door.</p>
@@ -44,7 +70,7 @@ function App() {
             </div>
           </div>
           <div className="flex-grow relative ">
-            <div className="md:flex hidden flex-row-reverse inset-right-0 p-4 absolute right-4">
+            <div className="md:flex hidden flex-row-reverse inset-right-0 p-4 absolute right-0">
               <div className="text-blue-900 flex gap-4 ">
                 <img src="/asset/icons/phone.svg" alt="icon medExpress" className="my-auto" />
                 <div>
@@ -213,20 +239,46 @@ function App() {
         </div>
       </section>
 
+      <section className="bg-gray-100 px-2 py-8  md:p-16">
+        <h1 className="text-center text-blue-900 text-2xl md:text-40x font-bold">FAQs</h1>
+        <div className="p-10">
+          <div className="overflow-hidden divide-y text-blue-900">
+            {faqs.map((item, key) =>
+              <div className="relative overflow-hidden bg-white rounded-lg m-1 p-2">
+                <input type="checkbox" className="peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer" />
+                <div className="h-12 w-full px-5 flex items-center font-bold">
+                  <h1>
+                    {item.question}
+                  </h1>
+                </div>
+                <div className="absolute top-8 right-3 transition-transform duration-500 rotate-0 peer-checked:-rotate-180">
+                  <img src="/asset/icons/arrow-down.svg" alt="arrow down" className="my-auto" />
+                </div>
+
+                <div className="overflow-hidden bg-white transition-all duration-500 max-h-0 peer-checked:max-h-40">
+                  <div className="p-5">{item.answered}</div>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+
+      </section >
+
       <section>
-        <div className="bg-blue-900 flex flex-col-reverse md:flex-row gap-4 text-white p-8 md:p-16">
+        <div className="bg-blue-900 flex flex-col-reverse md:flex-row gap-8 text-white p-8 md:p-16">
           <div className="w-full md:w-1/3">
-            <img src="/asset/images/prefooter-desktop.png" alt="pre footer" className="hidden md:inline"/>
-            <img src="/asset/images/prefooter-mobile.png" alt="pre footer" className="md:hidden mx-auto"/>
+            <img src="/asset/images/prefooter-desktop.png" alt="pre footer" className="hidden md:inline" />
+            <img src="/asset/images/prefooter-mobile.png" alt="pre footer" className="md:hidden mx-auto" />
           </div>
           <div className="w-full text-center md:text-left">
             <h1 className="font-bold text-2xl md:text-3xl">Call time on hair loss now </h1>
             <p className="mt-4">The sooner you start your treatment journey the quicker you see the results. That’s why we’ve made it easy and hassle-free, with quick online prescriptions and prompt delivery. What’s more, you have our lowest price guarantee.</p>
-            <button className="text-white bg-orange-500 font-bold text-lg py-1 my-8 mx-auto rounded-full px-24 mt-8">Start your FREE visit</button>
+            <button className="text-white bg-orange-500 font-bold text-lg py-1 my-8 mx-auto rounded-full px-20 mt-8">Start your FREE visit</button>
           </div>
         </div>
       </section>
-    </div>
+    </div >
   );
 }
 
