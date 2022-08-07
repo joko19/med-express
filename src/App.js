@@ -212,6 +212,20 @@ function App() {
           <button className="text-white bg-orange-500 font-bold text-lg py-1 my-8 mx-auto rounded-full px-24 md:hidden">Treat hair loss now</button>
         </div>
       </section>
+
+      <section>
+        <div className="bg-blue-900 flex flex-col-reverse md:flex-row gap-4 text-white p-8 md:p-16">
+          <div className="w-full md:w-1/3">
+            <img src="/asset/images/prefooter-desktop.png" alt="pre footer" className="hidden md:inline"/>
+            <img src="/asset/images/prefooter-mobile.png" alt="pre footer" className="md:hidden mx-auto"/>
+          </div>
+          <div className="w-full text-center md:text-left">
+            <h1 className="font-bold text-2xl md:text-3xl">Call time on hair loss now </h1>
+            <p className="mt-4">The sooner you start your treatment journey the quicker you see the results. That’s why we’ve made it easy and hassle-free, with quick online prescriptions and prompt delivery. What’s more, you have our lowest price guarantee.</p>
+            <button className="text-white bg-orange-500 font-bold text-lg py-1 my-8 mx-auto rounded-full px-24 mt-8">Start your FREE visit</button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
